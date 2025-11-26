@@ -120,7 +120,7 @@ These questions trigger the Tavily Web Search Tool.
 ## 🔧 Troubleshooting Common Errors
 If you encounter ImportError or create_tool_calling_agent errors, run this exact command inside your virtual environment:
 ```
-pip install --upgrade --force-reinstall --no-cache-dir langchain langchain-community langchain-core langchain-groq tavily-python
+pip install --upgrade --force-reinstall langchain==0.1.20 langchain-community==0.0.38 langchain-core==0.1.52 langchain-groq tavily-python python-dotenv
 ```
 ## 👤 Author Info
 
