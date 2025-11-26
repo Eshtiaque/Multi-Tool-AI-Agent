@@ -75,8 +75,6 @@ pip install --upgrade --force-reinstall --no-cache-dir langchain langchain-commu
 ```
 3. Configure API Keys
 Create a file named .env in the root directory and add your API keys:
-
-Code snippet
 ```
 GROQ_API_KEY=your_groq_api_key_here
 TAVILY_API_KEY=your_tavily_api_key_here
@@ -119,7 +117,7 @@ These questions trigger the Tavily Web Search Tool.
 
 "How can I reduce the risk of heart disease naturally?"
 
-🔧 Troubleshooting Common Errors
+## 🔧 Troubleshooting Common Errors
 If you encounter ImportError or create_tool_calling_agent errors, run this exact command inside your virtual environment:
 ```
 pip install --upgrade --force-reinstall --no-cache-dir langchain langchain-community langchain-core langchain-groq tavily-python
